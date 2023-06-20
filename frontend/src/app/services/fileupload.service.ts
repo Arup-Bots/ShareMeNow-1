@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 export class FileuploadService {
   // base url
   // host = 'https://share-now-backend.vercel.app/';
-  host = 'http://localhost:5000/';
+  host = 'https://sharemenow.onrender.com';
   // host = 'http://localhost:3000/';
   uploadURL = `${this.host}api/files`;
 
